@@ -7,8 +7,6 @@ jobs:
     steps:
       - name: Checkout the repo
         uses: actions/checkout@v3
-        with:
-          path: package
       - name: Hello world action step
         id: hello
         uses: sbmthakur/hello-world-docker-action@main
