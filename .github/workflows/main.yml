@@ -1,7 +1,7 @@
 on: [push]
 
 jobs:
-  hello_world_job:
+  packj:
     runs-on: ubuntu-latest
     name: A job to say hello
     steps:
@@ -9,3 +9,5 @@ jobs:
         uses: actions/checkout@v3
       - name: Use packj.dev
         uses: sbmthakur/packj.dev@main
+        with:
+            REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
