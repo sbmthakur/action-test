@@ -8,4 +8,4 @@ jobs:
       - name: Checkout the repo
         uses: actions/checkout@v3
       - name: Use packj.dev
-        uses: ossillate-inc/packj.dev@main
+        uses: sbmthakur/packj.dev@main
