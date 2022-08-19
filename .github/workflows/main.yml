@@ -11,3 +11,4 @@ jobs:
         uses: sbmthakur/packj.dev@main
         with:
             REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            DEPENDENCY_FILES: "requirements.txt,package.json"
